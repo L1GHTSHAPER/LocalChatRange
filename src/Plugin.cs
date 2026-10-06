@@ -22,7 +22,7 @@ namespace LocalChatRange
     {
         public const string PluginGuid = "ontogether.localchatrange";
         public const string PluginName = "LocalChatRange";
-        public const string PluginVersion = "1.0.2";
+        public const string PluginVersion = "1.0.3";
 
         internal static Plugin Instance { get; private set; }
         internal static ManualLogSource Log { get; private set; }

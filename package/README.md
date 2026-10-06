@@ -1,5 +1,7 @@
 # LocalChatRange
 
+![LightShaper](https://raw.githubusercontent.com/L1GHTSHAPER/LocalChatRange/main/tools/assets/lightshaper-wordmark.png)
+
 [Source code on GitHub](https://github.com/L1GHTSHAPER/LocalChatRange) | [Report an issue](https://github.com/L1GHTSHAPER/LocalChatRange/issues) | [Thunderstore](https://thunderstore.io/c/on-together/p/LightShaper/LocalChatRange/)
 
 A BepInEx mod for [On Together](https://store.steampowered.com/app/2688490/On_Together/) that shows how far your **local text chat** reaches.
