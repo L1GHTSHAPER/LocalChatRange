@@ -6,7 +6,15 @@
 
 A BepInEx mod for [On Together](https://store.steampowered.com/app/2688490/On_Together/) that shows how far your **local text chat** reaches.
 
+**♥ Enjoying the mod? Leave a like on [Thunderstore](https://thunderstore.io/c/on-together/p/LightShaper/LocalChatRange/) and a ⭐ on [GitHub](https://github.com/L1GHTSHAPER/LocalChatRange) — it helps the project grow!**
+
 Local messages are only delivered to players within **5 m** of you. This mod draws that area on the ground around your character and puts a ring under every player who will receive your local messages, so you know who can read you before you hit Enter.
+
+## Settings menu
+
+The range side button opens/closes settings. Tabs: **General**, **Range**, **Appearance**, **Quality**. Quality options collapse. Color fields accept `#RRGGBB` or `#RRGGBBAA` and show a swatch with its alpha. **F8** and `/chatrange` still toggle the area.
+
+Cream panels, warm brown text, coral accents, rounded controls and game fonts. Side buttons form one group, show the mod name and the settings hotkey (where available), and move away from visible UI panels. If both edges are blocked, the buttons wait until space becomes available. Existing hotkeys, commands and configuration keys are preserved. Menus scroll on smaller screens; changes save automatically. Where shown, **Apply** saves a field draft. Invalid values keep the saved setting.
 
 ## Features
 
@@ -70,9 +78,20 @@ Only the floor you are on is drawn: a player on a balcony right above you may al
 
 ## Русский
 
+**♥ Нравится мод? Поставьте лайк на [Thunderstore](https://thunderstore.io/c/on-together/p/LightShaper/LocalChatRange/) и ⭐ звезду на [GitHub](https://github.com/L1GHTSHAPER/LocalChatRange) — это помогает проекту расти!**
+
+Меню открывает и закрывает боковая кнопка радиуса. Вкладки: **Общее**, **Радиус**, **Вид**, **Качество**. Параметры качества сворачиваются. Цвет задаётся как `#RRGGBB` или `#RRGGBBAA`; образец показывает прозрачность. **F8** и `/chatrange` по-прежнему переключают область.
+
+Кремовые панели, коричневый текст, коралловые акценты и скруглённые элементы. Боковые кнопки собраны в одну группу; при наведении видны название мода и клавиша настроек, если она есть. Группа избегает видимых игровых панелей; когда места нет, кнопки скрываются до освобождения края. Настройки и прежние клавиши сохранены. Низкие окна прокручиваются, изменения сохраняются автоматически; кнопка «Применить», где она есть, сохраняет введённое значение.
+
 Мод показывает зону действия **локального текстового чата** (5 м): область рисуется на поверхности вокруг персонажа и повторяет рельеф, а под игроками, которые получат ваше локальное сообщение, появляются зелёные кольца.
 
 - **F8** или `/chatrange` — показать/скрыть область; `/chatrange on|off`.
 - `/chatrange mode always|local|typing` — показывать всегда, только на вкладке Local или только пока вы печатаете во вкладке Local.
 - `/chatrange players on|off` — кольца под игроками в радиусе; `/chatrange status` — текущее состояние.
 - Радиус считывается из кода игры при запуске; настройки — в `BepInEx/config/ontogether.localchatrange.cfg`.
+
+
+Side settings buttons are opaque squares with rounded corners, a dark brown outline and proportionate icons, sized to match the game's right-hand controls. They hide with the native controls in Desktop mode, including tooltips and pointer hit areas.
+
+Боковые кнопки настроек стали непрозрачными и квадратными: скруглённые углы, коричневая обводка и значки без растягивания. Размер соответствует высоте игровых кнопок справа. В Desktop-режиме они скрываются вместе с игровыми; подсказки и области нажатия также отключаются.

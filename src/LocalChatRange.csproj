@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <AssemblyName>LocalChatRange</AssemblyName>
     <RootNamespace>LocalChatRange</RootNamespace>
-    <Version>1.0.3</Version>
+    <Version>1.1.1</Version>
     <LangVersion>9.0</LangVersion>
     <Nullable>disable</Nullable>
     <DebugType>none</DebugType>
@@ -37,6 +37,7 @@
     <Reference Include="UnityEngine.TextRenderingModule" HintPath="$(GameManaged)\UnityEngine.TextRenderingModule.dll" Private="false" />
     <Reference Include="UnityEngine.IMGUIModule" HintPath="$(GameManaged)\UnityEngine.IMGUIModule.dll" Private="false" />
     <Reference Include="UnityEngine.InputLegacyModule" HintPath="$(GameManaged)\UnityEngine.InputLegacyModule.dll" Private="false" />
+      <Reference Include="Unity.Localization" HintPath="$(GameManaged)\Unity.Localization.dll" Private="false" />
   </ItemGroup>
 
 </Project>

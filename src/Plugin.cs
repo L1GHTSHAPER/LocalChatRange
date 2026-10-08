@@ -22,7 +22,7 @@ namespace LocalChatRange
     {
         public const string PluginGuid = "ontogether.localchatrange";
         public const string PluginName = "LocalChatRange";
-        public const string PluginVersion = "1.0.3";
+        public const string PluginVersion = "1.1.1";
 
         internal static Plugin Instance { get; private set; }
         internal static ManualLogSource Log { get; private set; }
@@ -69,6 +69,7 @@ namespace LocalChatRange
             Instance = this;
             Log = Logger;
             BindConfig();
+            ConfigMenu.Create(gameObject, PluginName, "range", Config, () => GameAccess.Chat != null);
 
             try
             {
@@ -94,6 +95,7 @@ namespace LocalChatRange
             ChatCommands.RegisterWithCommandApi();
 
             Config.SettingChanged += OnSettingChanged;
+            if (_harmony != null) UiEnvironment.InstallInputGuard(_harmony);
             Log.LogInfo($"{PluginName} {PluginVersion} loaded. Toggle with {ToggleKey.Value} or /chatrange");
         }
 
@@ -149,7 +151,7 @@ namespace LocalChatRange
 
         void Update()
         {
-            if (Pressed(ToggleKey.Value) && !GameAccess.IsAnyTextFieldFocused())
+            if (Pressed(ToggleKey.Value) && !UiEnvironment.AnyWindowOpen && !GameAccess.IsAnyTextFieldFocused())
                 SetEnabled(!Enabled.Value, false);
         }
 

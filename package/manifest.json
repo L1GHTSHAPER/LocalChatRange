@@ -1,8 +1,8 @@
 {
   "name": "LocalChatRange",
-  "version_number": "1.0.3",
+  "version_number": "1.1.1",
   "website_url": "https://github.com/L1GHTSHAPER/LocalChatRange",
-  "description": "Shows the local text chat range on the ground around your character and highlights players who will receive your local messages. Toggle with F8 or /chatrange.",
+  "description": "See local text chat range and nearby recipients. Cream settings via the grouped range side button: radius, colors and quality. F8 and /chatrange still toggle the area. English and Russian menus.",
   "dependencies": [
     "BepInEx-BepInExPack-5.4.2305"
   ]
