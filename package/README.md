@@ -14,7 +14,7 @@ Local messages are only delivered to players within **5 m** of you. This mod dra
 
 The range side button opens/closes settings. Tabs: **General**, **Range**, **Appearance**, **Quality**. Quality options collapse. Color fields accept `#RRGGBB` or `#RRGGBBAA` and show a swatch with its alpha. **F8** and `/chatrange` still toggle the area.
 
-Cream panels, warm brown text, coral accents, rounded controls and game fonts. Side buttons form one group, show the mod name and the settings hotkey (where available), and move away from visible UI panels. If both edges are blocked, the buttons wait until space becomes available. Existing hotkeys, commands and configuration keys are preserved. Menus scroll on smaller screens; changes save automatically. Where shown, **Apply** saves a field draft. Invalid values keep the saved setting.
+Cream panels, warm brown text, coral accents, rounded controls and game fonts. Side buttons align with the game's right-hand controls and extend beyond the right edge of the screen. They use the game's fill, outline and spacing, with proportionate icons and mod-name/hotkey hints. The group stays on the right, avoids open panels and hides until safe space becomes available. Existing hotkeys, commands and configuration keys are preserved. Menus scroll on smaller screens; changes save automatically. Where shown, **Apply** saves a field draft. Invalid values keep the saved setting.
 
 ## Features
 
@@ -82,7 +82,7 @@ Only the floor you are on is drawn: a player on a balcony right above you may al
 
 Меню открывает и закрывает боковая кнопка радиуса. Вкладки: **Общее**, **Радиус**, **Вид**, **Качество**. Параметры качества сворачиваются. Цвет задаётся как `#RRGGBB` или `#RRGGBBAA`; образец показывает прозрачность. **F8** и `/chatrange` по-прежнему переключают область.
 
-Кремовые панели, коричневый текст, коралловые акценты и скруглённые элементы. Боковые кнопки собраны в одну группу; при наведении видны название мода и клавиша настроек, если она есть. Группа избегает видимых игровых панелей; когда места нет, кнопки скрываются до освобождения края. Настройки и прежние клавиши сохранены. Низкие окна прокручиваются, изменения сохраняются автоматически; кнопка «Применить», где она есть, сохраняет введённое значение.
+Кремовые панели, коричневый текст, коралловые акценты и скруглённые элементы. Боковые кнопки выровнены с игровыми справа и продолжаются за правый край экрана. Они используют игровые заливку, обводку и интервалы; значки сохраняют пропорции, а при наведении видны название мода и клавиша настроек. Группа остаётся справа, избегает открытых панелей и скрывается, пока не появится свободное место. Настройки и прежние клавиши сохранены. Низкие окна прокручиваются, изменения сохраняются автоматически; кнопка «Применить», где она есть, сохраняет введённое значение.
 
 Мод показывает зону действия **локального текстового чата** (5 м): область рисуется на поверхности вокруг персонажа и повторяет рельеф, а под игроками, которые получат ваше локальное сообщение, появляются зелёные кольца.
 
@@ -92,6 +92,6 @@ Only the floor you are on is drawn: a player on a balcony right above you may al
 - Радиус считывается из кода игры при запуске; настройки — в `BepInEx/config/ontogether.localchatrange.cfg`.
 
 
-Side settings buttons are opaque squares with rounded corners, a dark brown outline and proportionate icons, sized to match the game's right-hand controls. They hide with the native controls in Desktop mode, including tooltips and pointer hit areas.
+Side settings buttons match the game's right-hand controls: the same height, left edge, spacing, native fill and brown outline. Their right ends extend beyond the screen; icons keep their proportions. They hide with the native controls in Desktop mode, including tooltips and pointer hit areas.
 
-Боковые кнопки настроек стали непрозрачными и квадратными: скруглённые углы, коричневая обводка и значки без растягивания. Размер соответствует высоте игровых кнопок справа. В Desktop-режиме они скрываются вместе с игровыми; подсказки и области нажатия также отключаются.
+Боковые кнопки настроек повторяют игровые справа: одинаковые высота, левый край, интервалы, заливка и коричневая обводка. Правые концы уходят за экран; значки сохраняют пропорции. В Desktop-режиме кнопки скрываются вместе с игровыми; подсказки и области нажатия также отключаются.

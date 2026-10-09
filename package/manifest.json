@@ -1,6 +1,6 @@
 {
   "name": "LocalChatRange",
-  "version_number": "1.1.1",
+  "version_number": "1.1.2",
   "website_url": "https://github.com/L1GHTSHAPER/LocalChatRange",
   "description": "See local text chat range and nearby recipients. Cream settings via the grouped range side button: radius, colors and quality. F8 and /chatrange still toggle the area. English and Russian menus.",
   "dependencies": [
